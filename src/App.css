@@ -1,0 +1,82 @@
+body{
+  background-color: rgba(34, 247, 180, 0.929);
+}
+.inputNameContainer {
+    line-height: 45px;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: aliceblue;
+    width: 20vw;
+    padding: 43px;
+    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+
+.inputNameContainer .google i button {
+  background: linear-gradient(to right, red 0%, #0e44b9 100%);
+  margin: -30px 0 50px 0;
+}
+.inputNameContainer .google i button:hover {
+  background: linear-gradient(to left, red 0%, #0e44b9 100%);
+  margin: -30px 0 50px 0;
+}
+
+.chat-container{
+    height: 84vh;
+    overflow-y: scroll;
+    border: 1px solid rgb(173, 171, 171);
+    background-color: rgba(143, 250, 214, 0.934);
+}
+.userName{
+  margin-left: 10px;
+  margin-bottom: 0;
+}
+.chatbox{
+  border-radius: 2px;
+  padding: 10px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.user{
+  color: rgba(0, 0, 0, 0.526);
+  font-weight: 500;
+  margin: 0 0 0 10px;
+}
+.msg {
+    background-color: rgb(220 255 240);
+    padding: 10px;
+    color: #5c00ff;
+    border-radius: 0 10px 0 10px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 500;
+    font-size: large;
+    width: fit-content;
+}
+/* .me .chatbox{
+  background-color: rgba(120, 35, 114, 0.934);
+} */
+.container{
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.me{
+  flex-direction: row-reverse;
+}
+.sendbox{
+  width: 100%;
+   position: fixed;
+   bottom: 5px;
+   display: flex;
+   flex-direction: row;
+}
+.sendbox input{
+  flex-grow: 1;
+  padding: 10px;
+  font-size: 20px;
+}
